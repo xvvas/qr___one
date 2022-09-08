@@ -14,8 +14,55 @@
 h1 {
   font-family: 'Outfit';
   font-weight: 700;
+  font-size: 25px;
 }  
-p{
+h2 {
   font-family: 'Outfit';
   font-weight: 400;
+  font-size: 15px;
+}
+/*web*/
+body {
+  background-color: var(--lightGray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 90px;
+  padding-top: 60px;
+}
+  .principalCard{
+    background-color: var(--white);
+    width: 350px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border-radius: 25px;
+    box-shadow: 0 1px 3px var(--lightGray); 0 1px 2px 
+
+  }
+      .principalCard__img{
+        padding: 20px;
+        border-radius: 30px;
+      }
+      .principalCard__content{
+        padding: 0px 30px 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+      }
+          .principalCard__h1{
+            text-align: center;
+            color: var(--darkBlue);
+          }
+          .principalCard__h2{
+            text-align: center;
+            width: 250px;
+            color: var(--grayishBlue);
+          }
+/*mobile*/
+@media (max-width: 375px) {  
+ h1{
+  font-size: 28px;
 }
