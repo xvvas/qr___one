@@ -1,0 +1,21 @@
+/*custom colors */
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightGray: hsl(212, 45%, 89%);
+  --grayishBlue: hsl(220, 15%, 55%);
+  --darkBlue: hsl(218, 44%, 22%);
+}
+/*reset vp*/
+*{
+  margin: 0;
+  padding: 0;
+}
+/*font*/
+h1 {
+  font-family: 'Outfit';
+  font-weight: 700;
+}  
+p{
+  font-family: 'Outfit';
+  font-weight: 400;
+}
